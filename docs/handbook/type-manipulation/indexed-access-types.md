@@ -1,0 +1,3 @@
+---
+title: Indexed Access Types
+---
