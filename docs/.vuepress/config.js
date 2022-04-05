@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'TypeScript Tutorial',
+  title: 'TypeScript 学习笔记',
   description: 'TypeScript 学习笔记',
   theme: 'reco',
   themeConfig: {
     sidebar: [
       {
-        title: '介绍',
+        title: '入门',
         collapsable: false,
         children: ['/started/'],
       },
@@ -41,4 +41,18 @@ module.exports = {
     ],
     subSidebar: 'auto',
   },
+  markdown: {
+    lineNumbers: true,
+  },
+  plugins: [
+    [
+      'vuepress-plugin-nuggets-style-copy',
+      {
+        copyText: 'copy',
+        tip: {
+          content: 'copy success',
+        },
+      },
+    ],
+  ],
 };
