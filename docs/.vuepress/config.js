@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/typescript/',
+  base: '/typescript-tutorial/',
   title: 'TypeScript 学习笔记',
   description: 'TypeScript 学习笔记',
   theme: 'reco',
