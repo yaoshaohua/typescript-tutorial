@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: '入门',
+        title: '入门指南',
         collapsable: false,
         children: ['/started/'],
       },
